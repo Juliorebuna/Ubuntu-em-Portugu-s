@@ -1,22 +1,25 @@
-# Ubuntu-em-Portugu-s
+# Script de Instalação do Ubuntu no Termux
 
+Este repositório contém um script para instalar e configurar o Ubuntu no Termux, incluindo a instalação de vários pacotes e configurações úteis.
 
+## Requisitos
 
+Antes de executar o script, certifique-se de que você tem os seguintes itens instalados:
 
+- **Termux:** Um terminal para Android.
+- **Sudo:** O script requer permissões de superusuário para algumas operações. Certifique-se de que o `sudo` está instalado e configurado.
+- **Proot-Distro:** Ferramenta para executar distribuições Linux em Termux.
 
+## Passos para Instalação
 
+Siga as etapas abaixo para usar o script:
 
+### 1. Clonar o Repositório
 
+Abra o Termux e execute o comando abaixo para clonar este repositório:
 
+```bash
+git clone https://github.com/Juliorebuna/ Ubuntu-em-Português-s.git
 
-
-Esse script inclui agora a verificação e instalação dos seguintes pacotes:
-
-Navegadores: Firefox e Chromium
-Clientes de e-mail: Thunderbird e Evolution
-Editores de texto e IDEs: VSCode e Sublime Text
-Multimídia: VLC e GIMP
-Ferramentas de desenvolvimento: Git, Node.js e npm
-Ferramentas de sistema e utilitários: htop e gparted
-Pacote de escritório: LibreOffice
-Cliente de torrent: Transmission
+2. Navegar até o Diretório do Repositório
+Vá para o diretório do repositório clonado:
